@@ -101,6 +101,75 @@ Browse real remote tech jobs powered by the Remotive API. Click any job and get 
 
 ## 🛠️ Tech Stack
 
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+| Tool | Version | Download |
+|---|---|---|
+| Python | 3.10+ | https://python.org/downloads |
+| Node.js | 18+ | https://nodejs.org |
+| Groq API Key | Free | https://console.groq.com |
+
+---
+
+### 📦 Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/IFVERSE/ai-career-coach.git
+cd ai-career-coach
+```
+
+**2. Set up the Backend**
+
+```bash
+cd backend
+
+# Create virtual environment
+python -m venv venv
+
+# Activate it
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+**3. Add your Groq API Key**
+
+Create a `.env` file inside the `backend` folder:
+
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+Get your free key at: **https://console.groq.com**
+
+**4. Start the Backend Server**
+
+```bash
+uvicorn main:app --reload
+```
+
+✅ Backend runs at: `http://localhost:8000`
+📖 API docs at: `http://localhost:8000/docs`
+
+**5. Set up the Frontend** *(open a new terminal)*
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+**6. Open the App**
 
 
 
