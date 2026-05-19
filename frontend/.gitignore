@@ -1,14 +1,6 @@
-# Python
-backend/venv/
-backend/__pycache__/
-backend/*.pyc
-backend/.env
-backend/career_coach.db
-
-# Node
-frontend/node_modules/
-frontend/dist/
-
-# System
-.DS_Store
-Thumbs.db
+echo frontend/node_modules/ > .gitignore
+echo backend/venv/ >> .gitignore
+echo backend/__pycache__/ >> .gitignore
+echo backend/.env >> .gitignore
+echo backend/career_coach.db >> .gitignore
+echo frontend/dist/ >> .gitignore
