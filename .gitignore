@@ -1,0 +1,9 @@
+frontend/node_modules/
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/career_coach.db
+frontend/dist/
+*.pyc
+.DS_Store
+Thumbs.db
