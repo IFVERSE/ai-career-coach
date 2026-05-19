@@ -171,6 +171,112 @@ npm run dev
 
 **6. Open the App**
 
+---
+
+### ⚡ Quick Start Commands
+
+```bash
+# Terminal 1 — Backend
+cd backend && venv\Scripts\activate && uvicorn main:app --reload
+
+# Terminal 2 — Frontend
+cd frontend && npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+---
+
+## 🌐 API Reference
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/` | Health check |
+| `POST` | `/api/chat` | Career chat with AI |
+| `POST` | `/api/cv-review` | Upload and analyze CV |
+| `POST` | `/api/interview/generate` | Generate interview questions |
+| `POST` | `/api/interview/score` | Score interview answer |
+| `POST` | `/api/salary` | Get African market salary data |
+| `POST` | `/api/roadmap` | Generate career roadmap |
+| `POST` | `/api/cover-letter` | Write cover letter |
+| `POST` | `/api/job-fit` | Analyze job fit score |
+| `GET` | `/api/jobs` | Fetch live remote jobs |
+| `GET` | `/api/daily-tip` | Get daily career tip |
+
+Full interactive docs: **http://localhost:8000/docs**
+
+---
+
+## 🎯 Who Is This For?
+
+---
+
+## 🌟 Why This Stands Out
+
+> Most career tools are built for Americans or Europeans. This one is built for **Africa**.
+
+| What Others Offer | What We Offer |
+|---|---|
+| Generic salary data | Nigerian + African market rates |
+| Western job advice | Africa-specific career strategies |
+| Basic CV feedback | Full AI rewrite + ATS scoring |
+| Static resources | Live job board + AI fit analysis |
+| One-size-fits-all | Built for the African context |
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feat/amazing-feature`
+3. Commit your changes: `git commit -m 'feat: add amazing feature'`
+4. Push to the branch: `git push origin feat/amazing-feature`
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨🏾‍💻 Built By
+
+<div align="center">
+
+<img src="https://github.com/IFVERSE.png" width="80" style="border-radius:50%"/>
+
+### Ayuk
+**Full-Stack AI Engineer & Founder, NexuSTEM Initiative**
+
+*Building AI tools that solve real problems for African professionals*
+
+🌍 Abuja, Nigeria
+
+[![GitHub](https://img.shields.io/badge/GitHub-IFVERSE-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IFVERSE)
+[![YouTube](https://img.shields.io/badge/Demo-Watch_Now-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=uHeGzcgr7Hg)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ If this project helped you, please give it a star!
+
+*It helps other African professionals discover this tool.*
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6584,50:A855F7,100:6C63FF&height=140&section=footer"/>
+
+</div>
+
+
+
 
 
 
